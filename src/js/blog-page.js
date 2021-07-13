@@ -184,7 +184,7 @@ class AudioPost extends Post {
             </div>
             <div class="post__title">${this.configuration.postTitle}</div>
             <div class="post__audio">
-              <audio class="audio-player" src="../../../../GitHub/BlogWorld/dist/img/Qeen.mp3" controls="controls" loop preload="auto">
+              <audio class="audio-player" src="#" controls="controls" loop preload="auto">
             </audio></div>
             <div class="post__text post__text_audio">${this.configuration.postText}</div>
             <div class="post__button"><input class="post__button_item post__button_item_black" type="button" value="Read more">
