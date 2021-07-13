@@ -184,7 +184,7 @@ class AudioPost extends Post {
             </div>
             <div class="post__title">${this.configuration.postTitle}</div>
             <div class="post__audio">
-              <audio class="audio-player" src="/EPAM/fl-15/HW_06/img/Qeen.mp3" controls="controls" loop preload="auto">
+              <audio class="audio-player" src="../../../../GitHub/BlogWorld/dist/img/Qeen.mp3" controls="controls" loop preload="auto">
             </audio></div>
             <div class="post__text post__text_audio">${this.configuration.postText}</div>
             <div class="post__button"><input class="post__button_item post__button_item_black" type="button" value="Read more">
@@ -400,6 +400,7 @@ function displayNotFoundMessage(counter, filterElems) {
     }
 }
 
-
+// 1st argument takes message, second (error - red border, success - green border, '' - light-grey border)
+// , third (dark - dark background, light - light background, fourth(delete - modal window delete post, subscribe - modal window subscribe)
 $('.main-container').openModalWindowPlugin("Are you Sure you want to delete this post?", "error", "dark", 'delete')
 $('.main-container').openModalWindowPlugin("Subscribe to this blog and get new updates first", "success", "light", 'subscribe')
